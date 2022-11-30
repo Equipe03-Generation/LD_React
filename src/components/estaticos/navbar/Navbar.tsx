@@ -17,12 +17,12 @@ function Navbar() {
                     <Box display="flex" justifyContent="start">
                         <Box mx={1} className='Cursor'>
                             <Typography variant="h6" color="inherit">
-                                Sobre
+                                Home
                             </Typography>
                         </Box>
                         <Box mx={1} className='Cursor'>
                             <Typography variant="h6" color="inherit">
-                                Contato
+                                Sobre
                             </Typography>
                         </Box>
                         <Box mx={1} className='Cursor'>
