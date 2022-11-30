@@ -3,10 +3,14 @@
     color: white
 }
 
-.text-decorator-nome {
-    text-decoration: none;
+.text-decorator-none {
+    text-decoration: none !important;
 }
 
 .bgnav {
     background-color: red;
+}
+
+.textobranco {
+    color: white;
 }
