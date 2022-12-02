@@ -1,4 +1,4 @@
-Atualizado em: 02/12/22
+Última Atualização: 02/12/22
 <br>
-Versão atual: v1
+Versão Atual: v1
 
