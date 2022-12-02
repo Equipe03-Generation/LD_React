@@ -18,7 +18,7 @@ function Navbar() {
                     <Box display="flex" justifyContent="start">
                         <Box mx={1} className='Cursor'>
                             <Typography variant="h6" color="inherit">
-                            <Link to='/' className='textobranco'>
+                            <Link to='/home' className='textobranco'>
                                 Home
                             </Link>
                             </Typography>

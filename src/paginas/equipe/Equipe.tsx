@@ -1,97 +1,32 @@
 import { Grid } from '@material-ui/core';
 import { Box } from '@mui/material';
 import React from 'react';
-import './Equipe.css';
-import { Link } from 'react-router-dom';
 
 function Equipe() {
-    return(
-        <>
-<div className='center'>
-        <h1> Equipe </h1>
-</div>
-    <div className='center'>
-    <h3>Equipe Desenvolvedora</h3>
-    <li>Ana Carolina</li>
-    <a href="https://www.linkedin.com/in/carolina-tavares-71731b21b/" target="_blank" rel="noopener noreferrer">
-        <img src="https://camo.githubusercontent.com/c00f87aeebbec37f3ee0857cc4c20b21fefde8a96caf4744383ebfe44a47fe3f/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d4c696e6b6564496e2d2532333030373742353f7374796c653d666f722d7468652d6261646765266c6f676f3d6c696e6b6564696e266c6f676f436f6c6f723d7768697465"
-        data-canonical-src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white"
-        className='max-width: 100%;' />
-        </a>
-        
-    <a href="https://github.com/anacahrowl" target="_blank" rel="noopener noreferrer">
-        <img src="https://camo.githubusercontent.com/fbc3df79ffe1a99e482b154b29262ecbb10d6ee4ed22faa82683aa653d72c4e1/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4769744875622d3130303030303f7374796c653d666f722d7468652d6261646765266c6f676f3d676974687562266c6f676f436f6c6f723d7768697465"
-        data-canonical-src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&amp;logo=github&amp;logoColor=white"
-        className='max-width: 100%;' />
-        </a>
-
-    <li>Raquel Soares</li>
-    <a href="https://www.linkedin.com/in/raquel-soares-pereira-3898721a2/" target="_blank" rel="noopener noreferrer">
-        <img src="https://camo.githubusercontent.com/c00f87aeebbec37f3ee0857cc4c20b21fefde8a96caf4744383ebfe44a47fe3f/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d4c696e6b6564496e2d2532333030373742353f7374796c653d666f722d7468652d6261646765266c6f676f3d6c696e6b6564696e266c6f676f436f6c6f723d7768697465"
-        data-canonical-src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white"
-        className='max-width: 100%;' />
-        </a>
-    
-    <a href="https://github.com/RaquelSoaresDeveloper" target="_blank" rel="noopener noreferrer">
-        <img src="https://camo.githubusercontent.com/fbc3df79ffe1a99e482b154b29262ecbb10d6ee4ed22faa82683aa653d72c4e1/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4769744875622d3130303030303f7374796c653d666f722d7468652d6261646765266c6f676f3d676974687562266c6f676f436f6c6f723d7768697465"
-        data-canonical-src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&amp;logo=github&amp;logoColor=white"
-        className='max-width: 100%;' />
-        </a>
-
-    <li>Gustavo Rocha</li>
-    <a href="https://www.linkedin.com/in/gustavo-rocha-860706250/" target="_blank" rel="noopener noreferrer">
-        <img src="https://camo.githubusercontent.com/c00f87aeebbec37f3ee0857cc4c20b21fefde8a96caf4744383ebfe44a47fe3f/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d4c696e6b6564496e2d2532333030373742353f7374796c653d666f722d7468652d6261646765266c6f676f3d6c696e6b6564696e266c6f676f436f6c6f723d7768697465"
-        data-canonical-src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white"
-        className='max-width: 100%;' />
-        </a>
-    
-    <a href="https://github.com/gust-tech" target="_blank" rel="noopener noreferrer">
-        <img src="https://camo.githubusercontent.com/fbc3df79ffe1a99e482b154b29262ecbb10d6ee4ed22faa82683aa653d72c4e1/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4769744875622d3130303030303f7374796c653d666f722d7468652d6261646765266c6f676f3d676974687562266c6f676f436f6c6f723d7768697465"
-        data-canonical-src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&amp;logo=github&amp;logoColor=white"
-        className='max-width: 100%;' />
-        </a>
-
-    <li>Lucas Campos</li>
-     <a href="https://www.linkedin.com/in/gustavo-rocha-860706250/" target="_blank" rel="noopener noreferrer">
-        <img src="https://camo.githubusercontent.com/c00f87aeebbec37f3ee0857cc4c20b21fefde8a96caf4744383ebfe44a47fe3f/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d4c696e6b6564496e2d2532333030373742353f7374796c653d666f722d7468652d6261646765266c6f676f3d6c696e6b6564696e266c6f676f436f6c6f723d7768697465"
-        data-canonical-src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white"
-        className='max-width: 100%;' />
-        </a>
-        
-    <a href="https://github.com/lucascampos99" target="_blank" rel="noopener noreferrer">
-        <img src="https://camo.githubusercontent.com/fbc3df79ffe1a99e482b154b29262ecbb10d6ee4ed22faa82683aa653d72c4e1/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4769744875622d3130303030303f7374796c653d666f722d7468652d6261646765266c6f676f3d676974687562266c6f676f436f6c6f723d7768697465"
-        data-canonical-src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&amp;logo=github&amp;logoColor=white"
-        className='max-width: 100%;' />
-    </a>
-
-    <li>Kaio Lima</li>
-    <a href="https://www.linkedin.com/in/kaiolima77/" target="_blank" rel="noopener noreferrer">
-        <img src="https://camo.githubusercontent.com/c00f87aeebbec37f3ee0857cc4c20b21fefde8a96caf4744383ebfe44a47fe3f/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d4c696e6b6564496e2d2532333030373742353f7374796c653d666f722d7468652d6261646765266c6f676f3d6c696e6b6564696e266c6f676f436f6c6f723d7768697465"
-        data-canonical-src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white"
-        className='max-width: 100%;' />
-    </a>
-    
-    <a href="https://github.com/kaiolima77" target="_blank" rel="noopener noreferrer">
-        <img src="https://camo.githubusercontent.com/fbc3df79ffe1a99e482b154b29262ecbb10d6ee4ed22faa82683aa653d72c4e1/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4769744875622d3130303030303f7374796c653d666f722d7468652d6261646765266c6f676f3d676974687562266c6f676f436f6c6f723d7768697465"
-        data-canonical-src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&amp;logo=github&amp;logoColor=white"
-        className='max-width: 100%;'/>
-    </a>
-
-    <li>Jose Luiz</li>
-    <a href="https://www.linkedin.com/in/jose-luiz-santos-a06873136//" target="_blank" rel="noopener noreferrer">
-        <img src="https://camo.githubusercontent.com/c00f87aeebbec37f3ee0857cc4c20b21fefde8a96caf4744383ebfe44a47fe3f/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d4c696e6b6564496e2d2532333030373742353f7374796c653d666f722d7468652d6261646765266c6f676f3d6c696e6b6564696e266c6f676f436f6c6f723d7768697465"
-        data-canonical-src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white"
-        className='max-width: 100%;' />
-        </a>
-    
-    <a href="https://github.com/luizcaboclo" target="_blank" rel="noopener noreferrer">
-        <img src="https://camo.githubusercontent.com/fbc3df79ffe1a99e482b154b29262ecbb10d6ee4ed22faa82683aa653d72c4e1/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4769744875622d3130303030303f7374796c653d666f722d7468652d6261646765266c6f676f3d676974687562266c6f676f436f6c6f723d7768697465"
-        data-canonical-src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&amp;logo=github&amp;logoColor=white"
-        className='max-width: 100%;' />
-        </a>
-        </div>
-        </>    
-        )
+    return (
+        <Grid justifyContent='center' alignItems='center'>
+            <Box textAlign='center'>
+            <h1>Equipe Desenvolvedora</h1>
+            </Box>
+            <Box textAlign='center'>
+            <h3>
+                - Ana Carolina 
+                <br></br>
+                - Raquel Soares
+                <br></br>
+                - Lucas Campos 
+                <br></br>
+                - Gustavo Rodrigues 
+                <br></br>
+                - Kaio Lima
+                <br></br>
+                - Jose Luiz
+                <br></br>
+            </h3>
+            </Box>
+            
+        </Grid>
+    )
 }
 
 

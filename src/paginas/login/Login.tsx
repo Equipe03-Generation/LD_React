@@ -29,7 +29,7 @@ function Login() {
     }
 
     useEffect(() => {
-        if (token != '') {
+        if (token !== '') {
             navigate('/home')
         }
     }, [token])
@@ -41,11 +41,11 @@ function Login() {
             // const resposta = await api.post(`/usuarios/logar`, userLogin)
             // setToken(resposta.data.token)
 
-            await login(`usuarios/logar`, userLogin, setToken )
+        await login(`/auth/logar`, userLogin, setToken)
 
-            alert('Usuário logado com sucesso')
-        } catch(error) {
-            alert('Dados do usuário inconsistentes, Erro ao logar!');
+            alert('Usuário logado com sucesso, seja bem-vinda')
+        } catch (error) {
+            alert('Usuário não encontrado, registra-se abaixo!');
         }
     }
 
