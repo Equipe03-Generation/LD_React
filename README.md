@@ -1,3 +1,3 @@
-Branch da v1
+Sandbox da v1
 <br>
-Versão esboço utilizada para a implantação do login.
+Branch usada para testes, implantações, experimentos e designs referentes a branch principal.
