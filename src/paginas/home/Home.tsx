@@ -10,7 +10,7 @@ function Home() {
         <Grid alignItems="center" item xs={6}>
           <Box paddingX={20} >
             <Typography variant="h3" gutterBottom color="textPrimary" component="h3" align="center" className='titulo'>Seja bem vindo(a)! ao fórum</Typography>
-            <Typography variant="h5" gutterBottom color="textPrimary" component="h5" align="center" className='titulo'>Peça ajuda e ensine outras mulheres!</Typography>
+            <Typography variant="h5" gutterBottom color="textPrimary" component="h5" align="center" className='titulo'>Nossa missão é desenvolver e fomentar uma comunidade global que empodere mulheres através da troca de conhecimentos em tecnologia </Typography>
           </Box>
           <Box display="flex" justifyContent="center">
             <Box marginRight={1}>

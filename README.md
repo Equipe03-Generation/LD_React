@@ -1,3 +1,3 @@
-Sandbox v1
+Branch da v1
 <br>
-Branch usada para testes, implantações, experimentos e designs referentes a branch principal.
+Versão esboço utilizada para a implantação do login.
