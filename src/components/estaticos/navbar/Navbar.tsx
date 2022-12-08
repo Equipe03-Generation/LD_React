@@ -36,7 +36,7 @@ function Navbar() {
 
     if(token != ""){
         navbarComponent = <AppBar position="static">
-        <Toolbar variant="dense">
+        <Toolbar variant="dense" className='bgnav'>
             <Box className='cursor'>
                 <Typography variant="h5" color="inherit">
                     Dev Girls
@@ -44,10 +44,24 @@ function Navbar() {
             </Box>
 
             <Box display="flex" justifyContent="start">
-                <Link to="/home">
+                <Link to="/home" className="text-decorator-none">
                     <Box mx={1} className='cursor text-decorator-none'>
                         <Typography variant="h6" color="inherit">
                             Home
+                        </Typography>
+                    </Box>
+                </Link>
+                <Link to="/equipe" className="text-decorator-none">
+                    <Box mx={1} className='cursor text-decorator-none'>
+                        <Typography variant="h6" color="inherit">
+                            Equipe
+                        </Typography>
+                    </Box>
+                </Link>
+                <Link to="/sobre" className="text-decorator-none">
+                    <Box mx={1} className='cursor text-decorator-none'>
+                        <Typography variant="h6" color="inherit">
+                            Sobre
                         </Typography>
                     </Box>
                 </Link>
@@ -58,21 +72,21 @@ function Navbar() {
                         </Typography>
                     </Box>
                 </Link>
-                <Link to="/formularioPost">
+                <Link to="/formularioPost" className="text-decorator-none">
                 <Box mx={1} className='cursor text-decorator-none'>
                     <Typography variant="h6" color="inherit">
                         Criar Post
                     </Typography>
                 </Box>
                 </Link>                
-                <Link to="/temas">
+                <Link to="/temas" className="text-decorator-none">
                 <Box mx={1} className='cursor text-decorator-none'>
                     <Typography variant="h6" color="inherit">
                         Tema
                     </Typography>
                 </Box>
                 </Link>
-                <Link to="/formularioTema">
+                <Link to="/formularioTema" className="text-decorator-none">
                 <Box mx={1} className='cursor text-decorator-none'>
                     <Typography variant="h6" color="inherit">
                         Criar Tema
