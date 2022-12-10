@@ -71,18 +71,11 @@ function Navbar() {
                             Posts
                         </Typography>
                     </Box>
-                </Link>
-                <Link to="/formularioPost" className="text-decorator-none">
-                <Box mx={1} className='cursor text-decorator-none'>
-                    <Typography variant="h6" color="inherit">
-                        Criar Post
-                    </Typography>
-                </Box>
-                </Link>                
+                </Link>               
                 <Link to="/temas" className="text-decorator-none">
                 <Box mx={1} className='cursor text-decorator-none'>
                     <Typography variant="h6" color="inherit">
-                        Tema
+                        Temas
                     </Typography>
                 </Box>
                 </Link>
