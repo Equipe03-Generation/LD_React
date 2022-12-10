@@ -1,7 +1,5 @@
 import React from 'react';
-import InstagramIcon from '@material-ui/icons/Instagram';
 import GithubIcon from '@material-ui/icons/GitHub';
-import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import { Typography, Grid } from '@material-ui/core';
 import { Box } from '@mui/material';
 import './Footer.css'
@@ -18,17 +16,11 @@ function Footer() {
             <Grid alignItems="center" item xs={12}>
                 <Box className='box1'>
                     <Box paddingTop={1} display="flex" alignItems="center" justifyContent="center">
-                        <Typography variant="h5" align="center" gutterBottom className='textos'>Sigam-nos nas redes sociais </Typography>
+                        <Typography variant="h5" align="center" gutterBottom className='textos'>Sigam-nos no GitHub! </Typography>
                     </Box>
                     <Box display="flex" alignItems="center" justifyContent="center">
                         <a href="https://github.com/Equipe03-Generation" target="_blank">
                             <GithubIcon className='redes' />
-                        </a>
-                        <a href="https://www.instagram.com/generationbrasil/" target="_blank">
-                            <InstagramIcon className='redes' />
-                        </a>
-                        <a href="https://www.linkedin.com/school/generationbrasil/" target="_blank">
-                            <LinkedInIcon className='redes' />
                         </a>
                     </Box>
                 </Box>
@@ -37,8 +29,8 @@ function Footer() {
                         <Typography variant="subtitle2" align="center" gutterBottom className='textos' >© 2022 Copyright:</Typography>
                     </Box>
                     <Box>
-                        <a target="_blank" href="https://github.com/Equipe03-Generation">
-                            <Typography variant="subtitle2" gutterBottom className='textos' align="center">github.com/Equipe03-Generation</Typography>
+                        <a target="_blank" href="https://github.com/Equipe03-Generation/Dev_Girls_React">
+                            <Typography variant="subtitle2" gutterBottom className='textos' align="center">Repositório do Projeto</Typography>
                         </a>
                     </Box>
                 </Box>

@@ -37,14 +37,13 @@ function CadastroPost() {
     const [tema, setTema] = useState<Tema>(
         {
             id: 0,
-            titulo: '',
-            categoria: ''
+            assunto: '',
+            descricao: ''
         })
     const [postagem, setPostagem] = useState<Postagem>({
         id: 0,
         titulo: '',
         texto: '',
-        data: '',
         tema: null
     })
 
@@ -136,9 +135,8 @@ function CadastroPost() {
         <Container maxWidth="sm" className="topo">
             <form onSubmit={onSubmit}>
                 <Typography variant="h3" color="textSecondary" component="h1" align="center" >Formulário de cadastro postagem</Typography>
-                <TextField value={postagem.titulo} onChange={(e: ChangeEvent<HTMLInputElement>) => updatedPostagem(e)} id="titulo" label="titulo" variant="outlined" name="titulo" margin="normal" fullWidth />
-                <TextField value={postagem.texto} onChange={(e: ChangeEvent<HTMLInputElement>) => updatedPostagem(e)} id="texto" label="texto" name="texto" variant="outlined" margin="normal" fullWidth />
-                <TextField value={postagem.data} onChange={(e: ChangeEvent<HTMLInputElement>) => updatedPostagem(e)} id="data" label="data" name="data" variant="outlined" margin="normal" fullWidth />
+                <TextField value={postagem.titulo} onChange={(e: ChangeEvent<HTMLInputElement>) => updatedPostagem(e)} id="titulo" label="Título" variant="outlined" name="titulo" margin="normal" fullWidth />
+                <TextField value={postagem.texto} onChange={(e: ChangeEvent<HTMLInputElement>) => updatedPostagem(e)} id="texto" label="Texto" name="texto" variant="outlined" margin="normal" fullWidth />
 
                 <FormControl >
                     <InputLabel id="demo-simple-select-helper-label">Tema </InputLabel>
@@ -152,7 +150,7 @@ function CadastroPost() {
                         })}>
                         {
                             temas.map(tema => (
-                                <MenuItem value={tema.id}>{tema.categoria}</MenuItem>
+                                <MenuItem value={tema.id}>{tema.assunto}</MenuItem>
                             ))
                         }
                     </Select>

@@ -1,3 +1,3 @@
-Branch da v3
+Branch da v2
 <br>
-Versão funcional contendo todo CRUD de tema e postagem.
+Versão esboço utilizada para a implantação de tema, postagem, modal e store.
